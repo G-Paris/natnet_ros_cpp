@@ -36,7 +36,7 @@ git clone https://github.com/aarsht7/natnet_ros_cpp
 cd ..
 catkin_build  #OR catkin_make
 . devel/setup.bash
-roslaunch natnet_ros_cpp natnet_ros.launch
+roslaunch natnet_ros_cpp natnet_ros.launch clientIP:="x.x.x.x" serverIP:="x.x.x.x"
 ```
 
 #### Setup the Motive for this package
