@@ -244,7 +244,7 @@ void Internal::DataHandler(sFrameOfMocapData* data, void* pUserData, Internal &i
         else   
             internal.rosparam.error_amp = 1.0;
     }
-    if(internal.rosparam.pub_pointcloud // && internal.UnlabeledCount>0)
+    if(internal.rosparam.pub_pointcloud) // && internal.UnlabeledCount>0)
         internal.PointcloudPub.publish(internal.msgPointcloud);
     internal.UnlabeledCount = 0; 
 }
