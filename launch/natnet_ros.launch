@@ -23,7 +23,7 @@
   <!-- To publish markers as rigidbodies and track them, make the required changes in the config/initiate.yaml -->
   <arg name="pub_individual_marker" default="false"/>
   <!-- To publish all the unlabeled markers as point cloud -->
-  <arg name="pub_pointcloud" default="false"/>
+  <arg name="pub_pointcloud" default="true"/>
 
   <!-- CONFIG FILE -->
   <arg name="conf_file" default="initiate.yaml"/>
